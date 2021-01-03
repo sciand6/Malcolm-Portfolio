@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1, maximum-scale=1"
+    />
+    <title>Portfolio Malcolm Sciandra</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2 class="workStatus">
+          EMPLOYMENT STATUS: As of today (<span id="currentDate"></span>) I'm
+          currently looking for work.
+        </h2>
+        <em>Employment status updated regularly.</em>
+        <div class="profile-photo"></div>
+        <h1 class="profile-name">Malcolm Sciandra</h1>
+        <h2 class="profile-headline">
+          Proud Member of the Penn State Class of 2020
+        </h2>
+      </div>
+      <div class="about">
+        <div class="about-header">
+          <span class="about-header-text">ABOUT</span>
+        </div>
+        <img src="assets/images/info.png" class="about-image" />
+      </div>
+      <div class="about-description">
+        Hi, I'm Malcolm. I'm a tech junkie and programming enthusiast. I
+        received by bachelor's degree in Information Science and Technology from
+        Penn State University. At University, I learned many valuable skills
+        such as programming, communication and project management. I also
+        completed several projects which refinforced my learning, and taught me
+        about teamwork. I am committed to life-long learning, and improving my
+        skills.
+      </div>
+      <div class="skills">
+        <img src="assets/images/runningman.png" class="skills-image" />
+        <div class="skills-header">
+          <span class="skills-header-text">SKILLS</span>
+        </div>
+      </div>
+      <div class="skills-list">
+        <h2 class="skills-item-header">Programming</h2>
+        <p><span class="skills-item">HTML5</span></p>
+        <p><span class="skills-item">CSS3</span></p>
+        <p><span class="skills-item">JavaScript</span></p>
+        <p><span class="skills-item">Python</span></p>
+        <p><span class="skills-item">Java</span></p>
+        <p><span class="skills-item">C++</span></p>
+        <p><span class="skills-item">C#</span></p>
+        <p><span class="skills-item">PHP</span></p>
+        <p><span class="skills-item">XML</span></p>
+        <h2 class="skills-item-header">Databases</h2>
+        <p><span class="skills-item">MySQL</span></p>
+        <p><span class="skills-item">MongoDB</span></p>
+      </div>
+      <div class="projects">
+        <div class="projects-header">
+          <span class="projects-header-text">PROJECTS</span>
+        </div>
+        <img src="assets/images/lightbulb.png" class="projects-image" />
+      </div>
+      <div class="projects-list">
+        <span style="color: white; font-size: 18px"
+          >Here are a few examples of my work.</span
+        >
+        <div class="project-item">
+          <h2 class="project-item-header">Real Time Chat Application</h2>
+          <p class="project-item-description">Chat with others in real time.</p>
+          <p class="project-item-description">
+            <em>Project link: </em>
+            <a href="http://malcolm-chat.herokuapp.com/"
+              ><span style="color: white">CHAT APP</span></a
+            >
+          </p>
+          <img class="project-item-image" src="assets/images/chatapp.png" />
+        </div>
+        <div class="project-item">
+          <h2 class="project-item-header">Calculator Application</h2>
+          <p class="project-item-description">Perform basic calculations.</p>
+          <p class="project-item-description">
+            <em>Project link: </em>
+            <a
+              href="http://personal.psu.edu/mvs6311/IST250/Calculator%20Remastered.html"
+              ><span style="color: white">CALCULATOR</span></a
+            >
+          </p>
+          <img class="project-item-image" src="assets/images/calculator.png" />
+        </div>
+      </div>
+      <div class="contact">
+        <img src="assets/images/phone.png" class="contact-image" />
+        <div class="skills-header">
+          <span class="contact-header-text">CONTACT</span>
+        </div>
+      </div>
+    </div>
+    <div class="contact-button">
+      <a class="contact-button-link" href="mailto:sciand6@gmail.com"
+        >CONTACT ME</a
+      >
+    </div>
+    <div class="closing-remarks">
+      I can send you my resume, and we can discuss things further.
+    </div>
+    <script type="text/javascript">
+      var curDate = new Date();
+      document.getElementById("currentDate").innerHTML =
+        curDate.getMonth() +
+        1 +
+        "/" +
+        curDate.getDate() +
+        "/" +
+        curDate.getFullYear();
+    </script>
+  </body>
+</html>
