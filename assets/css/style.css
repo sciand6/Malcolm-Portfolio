@@ -104,12 +104,6 @@ body {
   padding-bottom: 10px;
 }
 
-.profile-headline {
-  margin: 1px;
-  font-style: oblique;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
 .profile-name {
   margin: 0px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -209,17 +203,6 @@ body {
   margin-left: 20px;
 }
 
-.skills-item {
-  color: rgb(219, 219, 255);
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.skills-item-header {
-  color: white;
-  margin: 0px;
-}
-
 .skills-image {
   width: 100px;
   height: 100px;
@@ -228,8 +211,13 @@ body {
 
 .skills-list {
   background-color: #30839f;
+  color: white;
+  font-size: 20px;
   text-align: center;
-  padding-bottom: 5px;
+  padding: 10px;
+  margin: auto;
+  line-height: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .workStatus {
