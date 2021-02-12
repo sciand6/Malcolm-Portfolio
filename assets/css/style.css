@@ -1,5 +1,31 @@
+@media screen and (max-width: 348px) {
+  tr {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+}
+
 body {
   margin: 0px;
+}
+
+tr {
+  text-align: left;
+}
+
+table {
+  background-color: #30839f;
+  overflow-x: auto;
+  color: white;
+  font-size: 20px;
+  padding: 10px 0px 10px 40px;
+  margin: 0 auto;
+  align-self: center;
+  line-height: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
 }
 
 .about {
@@ -99,6 +125,7 @@ body {
 }
 
 .header {
+  padding-top: 1px;
   background-color: #ddd;
   text-align: center;
   padding-bottom: 10px;
@@ -113,7 +140,7 @@ body {
   background-image: url("../images/profile.JPG");
   width: 200px;
   height: 200px;
-  margin: 20px auto auto auto;
+  margin: 20px auto 10px auto;
   border-radius: 50%;
   border: 5px solid white;
   background-size: cover;
@@ -173,6 +200,13 @@ body {
   width: 300px;
 }
 
+.project-item-link {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bolder;
+  color: white;
+}
+
 .projects-list {
   background-color: black;
   text-align: center;
@@ -207,21 +241,4 @@ body {
   width: 100px;
   height: 100px;
   margin-right: 20%;
-}
-
-.skills-list {
-  background-color: #30839f;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  padding: 10px;
-  margin: auto;
-  line-height: 1.5em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.workStatus {
-  margin: 0px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #333;
 }
